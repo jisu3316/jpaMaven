@@ -10,7 +10,7 @@ import static javax.persistence.FetchType.*;
 
 @Entity
 @Table(name = "ORDERS")
-public class Order extends BaseEntity{
+public class Order extends BaseEntity {
 
     @Id @GeneratedValue
     @Column(name = "ORDER_ID")

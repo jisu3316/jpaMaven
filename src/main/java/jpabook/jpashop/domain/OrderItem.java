@@ -6,7 +6,7 @@ import java.time.LocalDateTime;
 import static javax.persistence.FetchType.*;
 
 @Entity
-public class OrderItem extends BaseEntity{
+public class OrderItem extends BaseEntity {
 
     @Id @GeneratedValue
     @Column(name = "ORDER_ITEM_ID")
